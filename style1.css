@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background: #700000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu h1 {
+    display: flex;
+    margin-left : 150px;
+    width: 281px;
+    height: 99px;
+    color: #ffffff;
+    font-family: 'Metal Mania';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list ul {
+    display: flex;
+}
+
+.menu-list ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Staatliches';
+    
+}
+
+.menu-list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu img {
+    display: flex;
+    width: 90px;
+    height: 86px;
+    margin-left: -80%;
+}
+
+.home img {
+    width: 100%;
+    height: 100%;
+    background-image: url(SekolahGambar1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homeKS{
+    margin-top: -4px;
+    display: flex;
+    flex-direction: row;
+    background-color:#343434;
+    ;
+}
+.homeKS img {
+    width: auto;
+    height: 100%;
+    max-height: 700px;
+    background: url(KepalaSekolah1.jpg);
+}
+
+.homeKS p {
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Spectral SC', serif;
+}
+
+.homepage {
+    background-color: #242424;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches';
+    font-size: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.homepage img {
+    margin-top: 10px;
+    width: auto;
+    height: 700px;
+}
+
+.thirdsection {
+    display: flex;
+    flex-direction: column;
+  }
+  .schoolact {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .items {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+  .item {
+    background-color: #343434;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 20%;
+    height: 400px;
+  }
+  .portrait {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .item p {
+    display: flex;
+  }
+  .textcent {
+   margin-left: 20px;
+   margin-right: 20px;
+   font-family: 'Spectral SC';
+   font-size: 30px;
+  }
+
+  .textcent a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+.contactbar {
+    width: 100%;
+    height: 100px;
+    background: #700000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
+}
+
+.contactbar ul li {
+    display: flex;
+    list-style: none;
+    float: left;
+    margin: 30px;
+}
+
+.contactbar h1 {
+    display: flex;
+    margin-left : 50px;
+    width: 281px;
+    height: 50px;
+    color: #ffffff;
+    font-family: 'Metal Mania';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.poto1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selected {
+    text-decoration: underline;
+}
